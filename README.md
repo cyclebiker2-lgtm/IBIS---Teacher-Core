@@ -1,14 +1,7 @@
-[README.txt](https://github.com/user-attachments/files/32749984/README.txt)
-IBIS Teacher Core — Vercel deployment package
-
-Contents:
-- index.html: IBIS Teacher Core v3.0.28 with Backup & Restore enhancements.
-
-Recommended deployment route if the connected Vercel deployment action is unavailable:
-1. Create a new private GitHub repository named ibis-teacher-core.
-2. Upload index.html to the repository root.
-3. In Vercel, choose Add New > Project and import that GitHub repository.
-4. Deploy as a static site; no framework/build command is required.
-5. Test the preview URL before promoting it to production.
-
-Important: Deploying the HTML does not migrate browser-local IndexedDB data. Export a backup from the current app before switching to the hosted copy.
+A definitive Student and Lesson Management system for remote and online teachers. 
+IBIS or Intelligently Building Interactive Study has a persistent lesson memory and saves classes locally through Chrome DB
+Sync with Google Calendar to update and reconcile class changes; rescheduled sessions, new classes, etc
+Student 360, store all updates, information, and information related to the student. 
+Integrated with IBIS Lesson Recorder, which will record microphone and tab audio on seperate channels, send them to DeepGram for full analysis, and come back with detailed feedback
+All of this in one place. Before IBIS Teacher Core, I had to create, update, and maintain various spreadsheets, often lost information, and had to analyse student performance on the fly. 
+Now my entire teaching needs are present in one, single place. 
